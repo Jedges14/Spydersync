@@ -1,0 +1,177 @@
+/*** You will not need this file until Unit 3 ***/
+html,body {
+  padding:0px;
+  margin:0;
+  width:100%;
+  background-color: whitesmoke;
+  transition: background-color 3s, color 0.5s;
+}
+
+/* Title area , includes the banner logo and all else*/
+.top{
+  display: flex;
+  width:100%;
+  margin:0;
+  padding:0;
+  padding:10px 0 10px 0;
+  background-color: #990000;
+}
+
+.header-banner{
+  margin: 0 0 0 0;
+  font-size: 50px;
+  position:absolute;
+  padding: 0px 10px 0 70px; 
+  color:white;
+}
+
+.logo{
+  display:flex;
+  width:100px;
+  height: auto;
+  margin-left: auto;
+  vertical-align: left;
+  position:absolute;
+  left:0;
+}
+
+.nav-button{
+  display:flex;
+  margin-top:20px;
+  padding:50px 50px 0 50px;
+  gap:30px;   
+  flex-wrap:wrap;
+}
+
+button{ 
+  font-size: 18px;
+  font-family: serif;
+  border: none;
+  background-color: transparent; 
+  color: white;
+}
+
+button:hover{
+  color:green;
+}
+
+button:visited{
+  color:blue;
+}
+
+/* end of title area */
+
+/*video and overlay text for the website*/
+.overlay-text{
+  margin:0;
+  padding:0;
+  font-size: 3.8vw;
+  color:white;
+  max-width: 80%;
+  text-align: center;
+  position:absolute;
+  top:25;
+}
+
+.headvideo{
+  object-fit: cover;
+  object-position: center;
+  padding:0;
+  height:40vmax;
+  width: 100%;
+}
+
+.dark-overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  height:100%;
+  width: 100%;
+  
+  position: absolute;
+  top: 0;
+}
+
+.banner-video-class{
+  position:relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4.tagline{
+  font-size: 40px;
+  justify-self: center;
+}
+
+div.scheduleimage{
+  display:flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-self:left;
+  align-items: center;
+  max-width: 100vb;
+}
+
+.reg:hover{
+  color:blue;
+}
+
+.reg:visited{
+  color:red;
+}
+
+span{
+  font-family: serif;
+  color:maroon;
+}
+
+#darkmode h4, h4.tagline, h2, h3, p{
+  color:white;
+}
+
+
+/* coffee chat block */
+div.form{
+  display:flex;
+  flex-wrap:wrap;
+  
+  width: 100%;
+}
+
+div.ChatDiv{
+  display:flex;
+  background-color:#990000;
+}
+
+
+.modal{
+  display: none;
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.content {
+  background-color: maroon;
+  color:black;
+  margin:15% auto;
+  padding:20px;
+  width:80%;
+  text-align: center;
+}
+
+#close{
+  background-color: #008CBA;
+  color:white;
+  cursor: pointer;
+}
+
+#close:hover{
+  background-color: #005f73;
+}
+
+
